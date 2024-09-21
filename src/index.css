@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.game-area {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border: 2px solid #fff;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.ship {
+  position: absolute;
+  bottom: 10px;
+  width: 40px;
+  height: 20px;
+  background-color: #0f0;
+}
+
+.alien {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 20px;
+  background-color: red;
+}
+
+.bullet {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  background-color: yellow;
+}
+
+.score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.game-over {
+  font-size: 24px;
+  color: red;
+}
